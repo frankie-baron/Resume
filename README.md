@@ -20,76 +20,80 @@
 
 ## 2. Commercial Projects
 
-- **AkroAI,** CTO
+- **AkroAI**, CTO
 - **Fairtiq**, iOS Developer
 - **Wage 3.0**, iOS Developer
 - **EasyInvoice 2.0**, iOS Developer
 - **Scoop**, iOS Developer
 - **Duży Ben 2.0**, iOS Developer
-- **AdNote,** Junior iOS Developer  
+- **AdNote**, Junior iOS Developer
 
-  [_Read more.._](Details/CommercialProjects.md)
+  [_Read more..._](Details/CommercialProjects.md)
   
 ## 3. Workplaces
 
-- **Fairtiq** **AG**, *Switzerland*
+- **Fairtiq AG**, *Switzerland*
 - **Iteo**, *Poland*
-- **Score** **Digital**, *Poland (outsourced by Iteo)*
+- **Score Digital**, *Poland* (outsourced by Iteo)
 - **Omnis**, *Poland*
 
-  [_Read more.._](Details/Workplaces.md)  
+  [_Read more..._](Details/Workplaces.md)  
 
 ## 4. Education
 
 - **Silesian University of Technology**, Poland
-    - **BaSC** in IT
+    - **BSc** in IT
     - 2016 - 2020
 - **Western University of Applied Sciences**, Norway
     - Erasmus Exchange
     - 2019
  
-  [_Read more.._](Details/Education.md)  
+  [_Read more..._](Details/Education.md)  
 
 ## 5. Tech Skills
 
 - Native iOS development in Swift
 - Automating pipelines
 - Investigating bugs
-- Analysing codebase health
+- Analyzing codebase health
 - Creating future roadmaps
 
-  [_Read more.._](Details/TechSkills.md)
+  [_Read more..._](Details/TechSkills.md)
 
 
 ## 6. Soft Skills
 
-- Self-managing
-- Creative problem solving
+- Self-management
+- Creative problem-solving
 - Writing articles
-- Clean communication
+- Clear communication
 - Attention to detail
 
-  [_Read more.._](Details/SoftSkills.md)
+  [_Read more..._](Details/SoftSkills.md)
 
 ## 7. Team Skills
 
 - Leading projects
 - Facilitating meetings
 - Explaining concepts
-- Creating safe space
+- Creating a safe space
 - Brainstorming  
 
-  [_Read more.._](Details/TeamSkills.md)
+  [_Read more..._](Details/TeamSkills.md)
 
 ## 8. Other
 
 ### Values
 
-- Being transparent
-- Being honest
-- Helping
-- Trusting
-- Growing
-- Sharing
+- Transparency
+- Honesty
+- Helpfulness
+- Trust
+- Growth
+- Respect
 
-  [_Read more.._]()
+### Languages
+
+- English
+- Polish
+- German
