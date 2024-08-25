@@ -28,7 +28,7 @@
 - **Duży Ben 2.0**, iOS Developer
 - **AdNote,** Junior iOS Developer  
 
-  [_Read more.._]()  
+  [_Read more.._](Details/CommercialProjects.md)
   
 ## 3. Workplaces
 
@@ -37,7 +37,7 @@
 - **Score** **Digital**, *Poland (outsourced by Iteo)*
 - **Omnis**, *Poland*
 
-  [_Read more.._]()  
+  [_Read more.._](Details/Workplaces.md)  
 
 ## 4. Education
 
@@ -48,9 +48,9 @@
     - Erasmus Exchange
     - 2019
  
-  [_Read more.._]()  
+  [_Read more.._](Details/Education.md)  
 
-## 5. Tech skills
+## 5. Tech Skills
 
 - Native iOS development in Swift
 - Automating pipelines
@@ -58,10 +58,10 @@
 - Analysing codebase health
 - Creating future roadmaps
 
-  [_Read more.._]()
+  [_Read more.._](Details/TechSkills.md)
 
 
-## 6. Soft skills
+## 6. Soft Skills
 
 - Self-managing
 - Creative problem solving
@@ -69,9 +69,9 @@
 - Clean communication
 - Attention to detail
 
-  [_Read more.._]()
+  [_Read more.._](Details/SoftSkills.md)
 
-## 7. Team skills
+## 7. Team Skills
 
 - Leading projects
 - Facilitating meetings
@@ -79,7 +79,7 @@
 - Creating safe space
 - Brainstorming  
 
-  [_Read more.._]()
+  [_Read more.._](Details/TeamSkills.md)
 
 ## 8. Other
 
