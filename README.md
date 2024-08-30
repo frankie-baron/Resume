@@ -30,6 +30,7 @@
   
 ## 3. Workplaces
 
+- **AkroAI**, *Czechia*
 - **Fairtiq AG**, *Switzerland*
 - **Iteo**, *Poland*
 - **Score Digital**, *Poland* (outsourced by Iteo)
