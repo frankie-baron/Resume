@@ -10,8 +10,6 @@
 
 🛠️  **4 years, since 2020**
 
-📱  **+48 534 774 212**
-
 🌍  [_frankiebaron.com_](http://frankiebaron.com)
 
 📬  [_hireme@frankiebaron.com_](mailto:hireme@frankiebaron.com)
