@@ -8,7 +8,7 @@
 AkroAI is a startup I am cofounding. As a second person in the company, I am responsible for development of the product - an e-learning platform that helps people to get IT & AI Digital skills. I am in charge of every technical aspect.
 
 Responsibilities:
-- Product maintanance and development
+- Product maintenance and development
 - Strategic planning
 - Architectural oversight
 - Technology decision-making
@@ -24,8 +24,8 @@ Fairtiq was a fast-pace, agile environment with a Spotify's team topology. As pa
 
 ### Responsibilities:
 - Feature development
-- Product maintanance
-- Continous release
+- Product maintenance
+- Continuous release
 - Pipeline automation
 - Solving bugs
 - Tech-debt reduction
@@ -38,7 +38,7 @@ Fairtiq was a fast-pace, agile environment with a Spotify's team topology. As pa
 Iteo is a Software House based in Poland. As a part of iOS Devs team I worked on several distinct projects for client companies. I had experience with diverse codebases and diffrent tech stack approaches.
 
 ### Responsibilities:
-- Devloping client apps
+- Developing client apps
 - Communication with client teams
 - Refactoring old codebases
 - Improving app performance
