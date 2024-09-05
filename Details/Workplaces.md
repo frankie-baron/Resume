@@ -1,57 +1,65 @@
 # Workplaces
 
-
-
-## 1. **AkroAI**
+## 1. **AkroAI**  
 ### 2024 - CTO, Co-founder
 
-AkroAI is a startup I am cofounding. As a second person in the company, I am responsible for development of the product - an e-learning platform that helps people to get IT & AI Digital skills. I am in charge of every technical aspect.
+AkroAI is a startup I am co-founding. As the second person in the company, I am responsible for developing the product—an e-learning platform that helps people acquire IT and AI digital skills. I am in charge of every technical aspect.
 
-Responsibilities:
-- Product maintenance and development
+### Responsibilities:
+- Product development and maintenance
 - Strategic planning
 - Architectural oversight
 - Technology decision-making
 - Executive collaboration
 
-## 2. **Fairtiq**
+## 2. **Fairtiq**  
 ### 2022-2023 - iOS Developer
 
-My role as iOS developer at Fairtiq involved maintaining and developing their innovative solution - a smart ticketing app for public transport.
+As an iOS developer at Fairtiq, I maintained and developed their innovative solution—a smart ticketing app for public transport.
 
-Fairtiq was a fast-pace, agile environment with a Spotify's team topology. As part of the User Fronting Operations Squad and the Mobile Chapter, I contributed to the shape and performance of the iOS application.
-
+Fairtiq was a fast-paced, agile environment with a Spotify team topology, where quality was a top priority. As part of the User Fronting Operations Squad and the Mobile Chapter, I contributed to the design and performance of the iOS application.
 
 ### Responsibilities:
 - Feature development
 - Product maintenance
-- Continuous release
+- Continuous release cycles
 - Pipeline automation
-- Solving bugs
-- Tech-debt reduction
-- QA
+- Bug resolution
+- Tech debt reduction
+- Quality assurance
 
-## 3. **Iteo**
+## 3. **Iteo**  
 ### 2021-2022 - iOS Developer
 
-
-Iteo is a Software House based in Poland. As a part of iOS Devs team I worked on several distinct projects for client companies. I had experience with diverse codebases and diffrent tech stack approaches.
+Iteo is a software house based in Poland. As part of the iOS development team, I worked on several distinct projects for client companies. I gained experience with diverse codebases and different tech stack approaches. Here, I also learned to work with Agile methodology.
 
 ### Responsibilities:
 - Developing client apps
-- Communication with client teams
-- Refactoring old codebases
+- Communicating with client teams
+- Refactoring legacy codebases
 - Improving app performance
-- Creating knowledge sharing sessions
+- Conducting knowledge-sharing sessions
 
-## 4. **Score Digital**
+## 4. **Score Digital**  
 ### 2022 - iOS Developer
 
-🏗️ **Work in progress!** 🏗️
+I worked for Score Digital as an outsourced iOS developer while employed at Iteo. My main objective was to redesign the EasyInvoice app.
 
-## 5. **Omnis**
+### Responsibilities:
+- Planning the app redesign
+- Applying new designs
+- Refactoring legacy code
+- Collaborating closely with the app owner
+- Preparing the migration to the new app
+
+## 5. **Omnis**  
 ### 2020-2021 - Junior iOS Developer
 
-🏗️ **Work in progress!** 🏗️
+Omnis was my first commercial experience. I learned many fundamental skills, such as using the Git version control system and deploying apps.
 
- [_Back ⏎_ ](../README.md)
+### Responsibilities:
+- Developing new features
+- Fixing bugs
+- Deploying apps
+
+[_Back ⏎_ ](../README.md)
