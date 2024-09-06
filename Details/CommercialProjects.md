@@ -15,7 +15,9 @@ It is a well-engineered app with a simple UI and a lot of engineering magic hidd
 The app was tightly integrated with the FairtiqSDK, developed by our colleagues. This created a natural layer of abstraction and modularity—while the iOS app focused on the UI and business logic, state management and background tracking tasks were handled by the SDK.
 
 ### Daily Life
-We followed a continuous delivery paradigm and released updates every two weeks. Features that were not yet ready were hidden under feature flags. The codebase was well-tested, with over 80% test coverage. There was significant automation, and we paid close attention to detail—conducting regular PR discussions and ensuring things were implemented as cleanly as possible, even if it required taking a few steps back. Long-term quality was the highest priority.
+We followed a continuous delivery paradigm and released updates every two weeks. Features that were not yet ready were hidden under feature flags. The codebase was well-tested, with over 80% test coverage. 
+
+There was significant automation, and we paid close attention to detail—conducting regular PR discussions and ensuring things were implemented as cleanly as possible, even if it required taking a few steps back. Long-term quality was the highest priority.
 
 ### Tech Stack
 
