@@ -6,8 +6,6 @@
 
 ## 2. Fairtiq
 
-🏗️ **Work in progress!** 🏗️
-
 [Fairtiq](https://apps.apple.com/ch/app/fairtiq/id1094360403?l=en) is an easy check-in, check-out solution for public transport ticketing. It operates in Switzerland, Germany, Austria, France, and Denmark. Along with the [FairtiqSDK](https://fairtiq.com/en/fairtiq-sdk), it serves as the company's main product.
 
 It is a well-engineered app with a simple UI and a lot of engineering magic hidden underneath. The core functionality revolves around supplying travel authorization (a valid QR ticket), collecting location data, resolving the journey path, calculating the ticket price, and finally charging the user for all completed journeys. When I joined the team, we started implementing the multi-traveler feature.
@@ -38,10 +36,6 @@ Native iOS code written in Swift.
 - **Payment Gateway**: Adyen/Datatrans
 - **Authentication**: OpenID Connect
 - **3rd Party Dependencies**: Swift Package Manager
-
-
-
-
 
 ## 3. Wage 3.0, iOS Developer
 
