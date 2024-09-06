@@ -1,64 +1,60 @@
 # Commercial Projects
 
-## 1. **AkroAI**, CTO
+## 1. AkroAI, CTO
 
 🏗️ **Work in progress!** 🏗️
 
-## 2. **[Fairtiq](https://apps.apple.com/ch/app/fairtiq/id1094360403?l=en)**
+## 2. Fairtiq
 
 🏗️ **Work in progress!** 🏗️
 
-Fairtiq is an app that simplifies commuting. An easy check-in, check-out solution for public transport ticketing - works across Switzerland, Germany, Austria, France and Denmark. 
+[Fairtiq](https://apps.apple.com/ch/app/fairtiq/id1094360403?l=en) is an easy check-in, check-out solution for public transport ticketing. It operates in Switzerland, Germany, Austria, France, and Denmark. Along with the [FairtiqSDK](https://fairtiq.com/en/fairtiq-sdk), it serves as the company's main product.
 
+It is a well-engineered app with a simple UI and a lot of engineering magic hidden underneath. The core functionality revolves around supplying travel authorization (a valid QR ticket), collecting location data, resolving the journey path, calculating the ticket price, and finally charging the user for all completed journeys. When I joined the team, we started implementing the multi-traveler feature.
+
+The app was tightly integrated with the FairtiqSDK, developed by our colleagues. This created a natural layer of abstraction and modularity—while the iOS app focused on the UI and business logic, state management and background tracking tasks were handled by the SDK.
+
+### Daily Life
+We followed a continuous delivery paradigm and released updates every two weeks. Features that were not yet ready were hidden under feature flags. The codebase was well-tested, with over 80% test coverage. There was significant automation, and we paid close attention to detail—conducting regular PR discussions and ensuring things were implemented as cleanly as possible, even if it required taking a few steps back. Long-term quality was the highest priority.
 
 ### Tech Stack
 
-Native iOS code written in Swift. 
+Native iOS code written in Swift.
 
-Architecture: **MVVM+C**  
-UI framework: UIKit/SwiftUI  
-Database: CoreData  
-Backend: RESTful API  
-Unit Tests: native  
-UI Tests: native  
-CI/CD: CircleCI  
-Telemetry/Analytics: App Center  
-Deployment: Fastlane  
-Localization: Lokalize  
-Payment Gateway: Adyen/Datatrans  
-
-
-The app was integrated with SDK developed by another team - SDK was responsible for recording CoreLocation data and managing journey tracking state.  
-
-### Team
-- UI/UX
-- iOS x3
-- Android x3
-- PO
-- Backend
-  
-My team was focused on user-fronting operations. We worked using Scrum methodology. 
+- **Architecture**: MVVM+C
+- **UI Framework**: UIKit/SwiftUI  
+- **Database**: CoreData  
+- **Backend**: RESTful API  
+- **Unit Tests**: Native  
+- **UI Tests**: Native  
+- **CI/CD**: CircleCI  
+- **Telemetry/Analytics**: App Center  
+- **Deployment**: Fastlane  
+- **Localization**: Lokalise  
+- **Payment Gateway**: Adyen/Datatrans  
+- **3rd Party Dependencies**:
 
 
 
 
-## 3. **Wage 3.0**, iOS Developer
+
+## 3. Wage 3.0, iOS Developer
 
 🏗️ **Work in progress!** 🏗️
 
-## 4. **EasyInvoice 2.0**, iOS Developer
+## 4. EasyInvoice 2.0, iOS Developer
 
 🏗️ **Work in progress!** 🏗️
 
-## 5. **Scoop**, iOS Developer
+## 5. Scoop, iOS Developer
 
 🏗️ **Work in progress!** 🏗️
 
-## 6. **Duży Ben 2.0**, iOS Developer
+## 6. Duży Ben 2.0, iOS Developer
 
 🏗️ **Work in progress!** 🏗️
 
-## 7. **AdNote**, Junior iOS Developer
+## 7. AdNote, Junior iOS Developer
 
 🏗️ **Work in progress!** 🏗️
 
