@@ -32,7 +32,7 @@ Native iOS code written in Swift.
 - **Deployment**: Fastlane  
 - **Localization**: Lokalise  
 - **Payment Gateway**: Adyen/Datatrans  
-- **3rd Party Dependencies**:
+- **3rd Party Dependencies**: Swift Package Manager
 
 
 
