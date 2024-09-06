@@ -8,7 +8,7 @@
 
 👨🏿‍💻  **Mobile Developer** 
 
-🛠️  **4 years, since 2020**
+🛠️  **4+ years, since 2020**
 
 🌍  [_frankiebaron.com_](http://frankiebaron.com)
 
