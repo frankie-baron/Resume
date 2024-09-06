@@ -17,7 +17,9 @@ The app was tightly integrated with the FairtiqSDK, developed by our colleagues.
 ### Daily Life
 We followed a continuous delivery paradigm and released updates every two weeks. Features that were not yet ready were hidden under feature flags. The codebase was well-tested, with over 80% test coverage. 
 
-There was significant automation, and we paid close attention to detail—conducting regular PR discussions and ensuring things were implemented as cleanly as possible, even if it required taking a few steps back. Long-term quality was the highest priority.
+There was significant automation, and we paid close attention to detail—conducting regular PR discussions and ensuring things were implemented as cleanly as possible, even if it required taking a few steps back. 
+
+Long-term quality was our highest priority—we organized bi-weekly tech-improvement meetings and kept a record of all areas that required refactoring.
 
 ### Tech Stack
 
