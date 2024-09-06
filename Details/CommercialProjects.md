@@ -31,7 +31,8 @@ Native iOS code written in Swift.
 - **Telemetry/Analytics**: App Center  
 - **Deployment**: Fastlane  
 - **Localization**: Lokalise  
-- **Payment Gateway**: Adyen/Datatrans  
+- **Payment Gateway**: Adyen/Datatrans
+- **Authentication**: OpenID Connect
 - **3rd Party Dependencies**: Swift Package Manager
 
 
