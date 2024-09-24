@@ -2,7 +2,17 @@
 
 ## 1. AkroAI, CTO
 
-🏗️ **Work in progress!** 🏗️
+### Responsibilities:
+
+- Stabilizing the AkroAI MVP mobile and web apps
+- Preparing iOS and Android MVP apps for the 1.0.0 public release
+- Creating automated deployment pipeline for the mobile and web platforms - set up from scratch
+
+### Tech Stack
+
+- **Server-Side:** Wordpress + PHP + Hostinger + RestAPI
+
+- **iOS and Android mobile apps:** Flutter + Dart 
 
 ## 2. Fairtiq
 
