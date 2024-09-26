@@ -2,6 +2,8 @@
 
 ## 1. AkroAI, CTO
 
+[akroai.com](https://akroai.com)
+
 ### Responsibilities:
 
 - Stabilizing the AkroAI MVP mobile and web apps
