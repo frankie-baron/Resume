@@ -18,7 +18,7 @@
 
 - **iOS and Android mobile apps:** Flutter + Dart 
 
-## 2. Fairtiq
+## 2. Fairtiq, iOS Developer, 2022-2023
 
 [Fairtiq](https://apps.apple.com/ch/app/fairtiq/id1094360403?l=en) is an easy check-in, check-out solution for public transport ticketing. It operates in Switzerland, Germany, Austria, France, and Denmark. Along with the [FairtiqSDK](https://fairtiq.com/en/fairtiq-sdk), it serves as the company's main product.
 
@@ -51,21 +51,68 @@ Native iOS code written in Swift.
 - **Authentication**: OpenID Connect
 - **3rd Party Dependencies**: Swift Package Manager
 
-## 3. Wage 3.0, iOS Developer
+## 3. Wage 3.0, iOS Developer, 2022
 
-🏗️ **Work in progress!** 🏗️
+Wage is an app that helps with finding odd jobs in your area. I contributed to its development while working at Iteo. 
 
-## 4. EasyInvoice 2.0, iOS Developer
+### Tech Stack
 
-🏗️ **Work in progress!** 🏗️
+Native iOS code written in Swift.
 
-## 5. Scoop, iOS Developer
+- **Architecture**: CLEAN
+- **UI Framework**: UIKit/.xib
+- **Database**: CoreData  
+- **Backend**: RESTful API  
+- **Unit Tests**: Native  
+- **UI Tests**: Native  
+- **CI/CD**: BitRise  
+- **3rd Party Dependencies**: Cocoapods
 
-🏗️ **Work in progress!** 🏗️
+## 4. EasyInvoice 2.0, iOS Developer, 2022
+
+An invoicing app for British and Canadian market. As the only iOS developer in the team I was managing the redesign of the iOS app and creating a specific migration flow to transfer users from legacy app. 
+
+### Tech Stack
+
+Native iOS code written in Swift.
+
+- **Architecture**: MVVM
+- **UI Framework**: UIKit/storyboards
+- **Database**: CoreData
+- **Backend**: RESTful API  
+- **3rd Party Dependencies**: Cocoapods
+
+## 5. Scoop, iOS Developer, 2021
+
+[Scoop](https://www.scooprobotix.com/company/) - a project management & automation tool for renewable energy & new energy industry.
+
+I learned there a lot about the issues that come when you introduce an offline synchronization mechanism. I also had some experience with Objective-C and it was my first heavily CoreData driven app. 
+
+### Tech Stack
+
+Native iOS code written in Swift and Objective-C.
+
+- **Architecture**: MVC
+- **UI Framework**: UIKit/storyboards
+- **Database**: CoreData 
+- **Backend**: RESTful API
+- **CI/CD**: BitRise
+- **3rd Party Dependencies**: Cocoapods
 
 ## 6. Duży Ben 2.0, iOS Developer
 
-🏗️ **Work in progress!** 🏗️
+A shopping app for Polish retail chain specializing in alcoholic beverages.
+
+I worked on the redesign of the app, which involved complete UI update, adding new onboarding flow and changing the sign-in/sign-up mechanism.
+
+### Tech Stack
+
+Native iOS code written in Swift and Objective-C.
+
+- **Architecture**: MVC
+- **UI Framework**: UIKit/storyboards
+- **Backend**: RESTful API
+- **3rd Party Dependencies**: Cocoapods
 
 ## 7. AdNote, Junior iOS Developer
 
