@@ -1,7 +1,5 @@
 # Education
 
-🏗️ **Work in progress!** 🏗️
-
 ## Silesian University of Technology, Poland
 ### Interdisciplinary studies:
 - Automatic Control and Robotics
