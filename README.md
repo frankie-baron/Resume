@@ -18,23 +18,23 @@
 
 ## 2. Commercial Projects
 
-- **AkroAI**, CTO
-- **Fairtiq**, iOS Developer
-- **Wage 3.0**, iOS Developer
-- **EasyInvoice 2.0**, iOS Developer
-- **Scoop**, iOS Developer
-- **Duży Ben 2.0**, iOS Developer
-- **AdNote**, Junior iOS Developer
+  - **AkroAI**, CTO
+  - **Fairtiq**, iOS Developer
+  - **Wage 3.0**, iOS Developer
+  - **EasyInvoice 2.0**, iOS Developer
+  - **Scoop**, iOS Developer
+  - **Duży Ben 2.0**, iOS Developer
+  - **AdNote**, Junior iOS Developer
 
   [_Read more..._](Details/CommercialProjects.md)
   
 ## 3. Workplaces
 
-- **AkroAI**, *Czechia*
-- **Fairtiq AG**, *Switzerland*
-- **Iteo**, *Poland*
-- **Score Digital**, *Poland* (outsourced by Iteo)
-- **Omnis**, *Poland*
+  - **AkroAI**, *Czechia*
+  - **Fairtiq AG**, *Switzerland*
+  - **Iteo**, *Poland*
+  - **Score Digital**, *Poland* (outsourced by Iteo)
+  - **Omnis**, *Poland*
 
   [_Read more..._](Details/Workplaces.md)  
 
@@ -50,33 +50,32 @@
   [_Read more..._](Details/Education.md)  
 
 ## 5. Tech Skills
-
-- Native iOS development in Swift
-- Automating pipelines
-- Investigating bugs
-- Analyzing codebase health
-- Creating future roadmaps
+  - Native iOS development in Swift
+  - Automating pipelines
+  - Investigating bugs
+  - Analyzing codebase health
+  - Creating future roadmaps
 
   [_Read more..._](Details/TechSkills.md)
 
 
 ## 6. Soft Skills
 
-- Self-management
-- Creative problem-solving
-- Writing articles
-- Clear communication
-- Attention to detail
+  - Self-management
+  - Creative problem-solving
+  - Writing articles
+  - Clear communication
+  - Attention to detail
 
   [_Read more..._](Details/SoftSkills.md)
 
 ## 7. Team Skills
 
-- Leading projects
-- Facilitating meetings
-- Explaining concepts
-- Creating a safe space
-- Brainstorming  
+  - Leading projects
+  - Facilitating meetings
+  - Explaining concepts
+  - Creating a safe space
+  - Brainstorming  
 
   [_Read more..._](Details/TeamSkills.md)
 
