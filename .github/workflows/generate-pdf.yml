@@ -32,7 +32,7 @@ jobs:
     - name: Add generation date to README.md
       run: |
         CURRENT_DATE=$(date '+%Y-%m-%d %H:%M:%S')
-        echo -e "\n*Generated on: $CURRENT_DATE*" >> README.md
+        echo -e "\n*Generated on: $CURRENT_DATE*\n\n##" >> README.md
 
     - name: Execute conversion script
       run: |

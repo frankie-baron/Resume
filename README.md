@@ -100,5 +100,3 @@
 ##  
 
 > **_Privacy Notice:_** _The personal data included in this resume is provided voluntarily for the purpose of recruitment and evaluating my suitability for employment. This data shall be processed in accordance with applicable data protection laws, including GDPR. It may be retained and shared within your organization or with third-party service providers involved in the recruitment process._
-
-##
