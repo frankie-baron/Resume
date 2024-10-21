@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  convert_to_pdf:
+  generate_pdf:
     runs-on: ubuntu-latest
 
     services:
