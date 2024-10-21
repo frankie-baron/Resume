@@ -21,7 +21,7 @@ jobs:
     steps:
     # Step 1: Checkout the repository
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     # Step 2: Wait for Gotenberg to start using `until`
     - name: Wait for Gotenberg to start
@@ -31,7 +31,17 @@ jobs:
           sleep 5
         done
 
-    # Step 3: Convert Markdown to PDF
+    # Step 3: Execute the conversion script
+    - name: Execute conversion script
+      run: |
+        # Get the dynamic branch name from GITHUB_REF
+        BRANCH_NAME=${GITHUB_REF#refs/heads/}
+        # Construct the URL dynamically using GITHUB_REPOSITORY and the branch name
+        REPO_URL=https://github.com/${GITHUB_REPOSITORY}/blob/${BRANCH_NAME}
+        # Call the script with the dynamic URL
+        ./convert-links.sh "$REPO_URL" README.md
+
+    # Step 4: Convert Markdown to PDF
     - name: Convert README.md to PDF
       run: |
         curl --request POST 'http://localhost:3000/forms/chromium/convert/markdown' \
@@ -39,11 +49,11 @@ jobs:
             --form 'files=@README.md' \
             --form 'files=@style.css' \
             --form singlePage=true \
-            --output output.pdf
+            --output resume.pdf
 
-    # Step 4: Upload the PDF as an artifact
+    # Step 5: Upload the PDF as an artifact
     - name: Upload PDF as an artifact
       uses: actions/upload-artifact@v4
       with:
         name: converted-pdf
-        path: output.pdf
+        path: resume.pdf
