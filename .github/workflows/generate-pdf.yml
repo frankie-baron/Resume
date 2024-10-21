@@ -1,0 +1,47 @@
+name: Generate PDF from README.md
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  convert_to_pdf:
+    runs-on: ubuntu-latest
+
+    services:
+      gotenberg:
+        image: thecodingmachine/gotenberg:8
+        ports:
+          - 3000:3000
+        options: --health-cmd="curl --fail http://localhost:3000/health" --health-interval=10s --health-timeout=5s --health-retries=5
+      
+    steps:
+    # Step 1: Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Step 2: Wait for Gotenberg to start using `until`
+    - name: Wait for Gotenberg to start
+      run: |
+        until curl -s http://localhost:3000/health; do
+          echo "Waiting for Gotenberg to be ready..."
+          sleep 5
+        done
+
+    # Step 3: Convert Markdown to PDF
+    - name: Convert README.md to PDF
+      run: |
+        curl --request POST \
+          --form files=@README.md \
+          --form convert=markdown \
+          --output README.pdf \
+          http://localhost:3000/forms/convert
+
+    # Step 4: Upload the PDF as an artifact
+    - name: Upload PDF as an artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: converted-pdf
+        path: README.pdf
