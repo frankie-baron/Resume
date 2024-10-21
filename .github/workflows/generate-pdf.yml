@@ -19,11 +19,9 @@ jobs:
         options: --health-cmd="curl --fail http://localhost:3000/health" --health-interval=10s --health-timeout=5s --health-retries=5
       
     steps:
-    # Step 1: Checkout the repository
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    # Step 2: Wait for Gotenberg to start using `until`
     - name: Wait for Gotenberg to start
       run: |
         until curl -s http://localhost:3000/health; do
@@ -31,17 +29,19 @@ jobs:
           sleep 5
         done
 
-    # Step 3: Execute the conversion script
+    - name: Add generation date to README.md
+      run: |
+        CURRENT_DATE=$(date '+%Y-%m-%d %H:%M:%S')
+        echo -e "*Generated on: $CURRENT_DATE*" >> README.md
+
     - name: Execute conversion script
       run: |
-        # Get the dynamic branch name from GITHUB_REF
         BRANCH_NAME=${GITHUB_REF#refs/heads/}
-        # Construct the URL dynamically using GITHUB_REPOSITORY and the branch name
         REPO_URL=https://github.com/${GITHUB_REPOSITORY}/blob/${BRANCH_NAME}
-        # Call the script with the dynamic URL
         ./convert-links.sh "$REPO_URL" README.md
 
-    # Step 4: Convert Markdown to PDF
+
+
     - name: Convert README.md to PDF
       run: |
         curl --request POST 'http://localhost:3000/forms/chromium/convert/markdown' \
@@ -51,16 +51,13 @@ jobs:
             --form singlePage=true \
             --output resume.pdf
 
-    # Step 5: Upload the PDF to the subfolder via FTP
     - name: Upload to FTP
       run: |
         curl -T resume.pdf ftp://${{ secrets.FTP_HOST }}/ \
         --user  ${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}
 
-
-    # Step 6: Upload the PDF as an artifact
     - name: Upload PDF as an artifact
       uses: actions/upload-artifact@v4
       with:
-        name: converted-pdf
+        name: generated-pdf
         path: resume.pdf
