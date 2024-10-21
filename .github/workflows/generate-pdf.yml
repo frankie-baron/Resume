@@ -32,15 +32,13 @@ jobs:
     - name: Add generation date to README.md
       run: |
         CURRENT_DATE=$(date '+%Y-%m-%d %H:%M:%S')
-        echo -e "*Generated on: $CURRENT_DATE*" >> README.md
+        echo -e "\n*Generated on: $CURRENT_DATE*" >> README.md
 
     - name: Execute conversion script
       run: |
         BRANCH_NAME=${GITHUB_REF#refs/heads/}
         REPO_URL=https://github.com/${GITHUB_REPOSITORY}/blob/${BRANCH_NAME}
         ./convert-links.sh "$REPO_URL" README.md
-
-
 
     - name: Convert README.md to PDF
       run: |
