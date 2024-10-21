@@ -54,12 +54,8 @@ jobs:
     # Step 5: Upload the PDF to the subfolder via FTP
     - name: Upload to FTP
       run: |
-        curl -T Resume.pdf ftp://${{ FTP_HOST }}/ \
-        --user ${{ FTP_USERNAME }}:${{ FTP_PASSWORD }}
-      env:
-        FTP_HOST: ${{ secrets.FTP_HOST }}
-        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        curl -T resume.pdf ftp://${{ secrets.FTP_HOST }}/ \
+        --user ${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}
 
     # Step 6: Upload the PDF as an artifact
     - name: Upload PDF as an artifact
