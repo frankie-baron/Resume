@@ -1,3 +1,5 @@
+> 👉🏿 _Auto-generated PDF version available [here](https://frankiebaron.com/resume/resume.pdf)._ 
+
 
 <img width="120" alt="Avatar" src="https://github.com/user-attachments/assets/65655ef6-598b-436d-88c5-50ac509ac536">
 
@@ -10,11 +12,11 @@
 
 🛠️  **4+ years, since 2020**
 
-🌍  [_frankiebaron.com_](http://frankiebaron.com)
+🌍  [**_frankiebaron.com_**](http://frankiebaron.com)
 
-📬  [_hireme@frankiebaron.com_](mailto:hireme@frankiebaron.com)
+📬  [**_hireme@frankiebaron.com_**](mailto:hireme@frankiebaron.com)
 
-💼  [_linkedin.com/in/franciszek-baron_](http://linkedin.com/in/franciszek-baron)
+💼  [**_linkedin.com/in/franciszek-baron_**](http://linkedin.com/in/franciszek-baron)
 
 ## 2. Commercial Projects
 
