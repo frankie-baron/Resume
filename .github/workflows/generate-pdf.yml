@@ -33,6 +33,10 @@ jobs:
         CURRENT_DATE=$(date '+%Y-%m-%d %H:%M:%S')
         echo -e "\n*Generated on: $CURRENT_DATE*\n\n##" >> README.md
 
+    - name: Execute stripping script
+      run: |
+        ./.github/workflows/generate-pdf/strip_marked_content.sh README.md
+
     - name: Execute conversion script
       run: |
         BRANCH_NAME=${GITHUB_REF#refs/heads/}

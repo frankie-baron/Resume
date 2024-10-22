@@ -1,5 +1,6 @@
+<!-- STRIP-BEGIN -->
 > 👉🏿 _Auto-generated PDF version available [here](https://frankiebaron.com/resume/resume.pdf)._ 
-
+<!-- STRIP-END -->
 
 <img width="120" alt="Avatar" src="https://github.com/user-attachments/assets/65655ef6-598b-436d-88c5-50ac509ac536">
 
