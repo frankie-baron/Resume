@@ -1,0 +1,60 @@
+name: Generate PDF from README.md
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  generate_pdf:
+    runs-on: ubuntu-latest
+
+    services:
+      gotenberg:
+        image: thecodingmachine/gotenberg:8
+        ports:
+          - 3000:3000
+        options: --health-cmd="curl --fail http://localhost:3000/health" --health-interval=10s --health-timeout=5s --health-retries=5
+      
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Wait for Gotenberg to start
+      run: |
+        until curl -s http://localhost:3000/health; do
+          echo "Waiting for Gotenberg to be ready..."
+          sleep 5
+        done
+
+    - name: Add generation date to README.md
+      run: |
+        CURRENT_DATE=$(date '+%Y-%m-%d %H:%M:%S')
+        echo -e "\n*Generated on: $CURRENT_DATE*\n\n##" >> README.md
+
+    - name: Execute conversion script
+      run: |
+        BRANCH_NAME=${GITHUB_REF#refs/heads/}
+        REPO_URL=https://github.com/${GITHUB_REPOSITORY}/blob/${BRANCH_NAME}
+        ./.github/workflows/generate-pdf/convert-links.sh "$REPO_URL" README.md
+
+    - name: Convert README.md to PDF
+      run: |
+        curl --request POST 'http://localhost:3000/forms/chromium/convert/markdown' \
+            --form 'files=@.github/workflows/generate-pdf/index.html' \
+            --form 'files=@.github/workflows/generate-pdf/style.css' \
+            --form 'files=@README.md' \
+            --form singlePage=true \
+            --output resume.pdf
+
+    - name: Upload to FTP
+      run: |
+        curl -T resume.pdf ftp://${{ secrets.FTP_HOST }}/ \
+        --user  ${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}
+
+    - name: Upload PDF as an artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: generated-pdf
+        path: resume.pdf
