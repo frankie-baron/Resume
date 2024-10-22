@@ -38,14 +38,14 @@ jobs:
       run: |
         BRANCH_NAME=${GITHUB_REF#refs/heads/}
         REPO_URL=https://github.com/${GITHUB_REPOSITORY}/blob/${BRANCH_NAME}
-        ./convert-links.sh "$REPO_URL" README.md
+        ./.github/workflows/generate-pdf/convert-links.sh "$REPO_URL" README.md
 
     - name: Convert README.md to PDF
       run: |
         curl --request POST 'http://localhost:3000/forms/chromium/convert/markdown' \
-            --form 'files=@index.html' \
+            --form 'files=@.github/workflows/generate-pdf/index.html' \
+            --form 'files=@.github/workflows/generate-pdf/style.css' \
             --form 'files=@README.md' \
-            --form 'files=@style.css' \
             --form singlePage=true \
             --output resume.pdf
 
