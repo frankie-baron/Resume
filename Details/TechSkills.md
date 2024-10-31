@@ -55,7 +55,10 @@ Up until now my tech skills present as follows:
 - Swift Package Manager
 - Cocoapods
 - Bundler
+- Mint
 
+### Build Automation
+- Rake
 
 ### Release Automation
 - Fastlane
