@@ -5,7 +5,7 @@ on:
     branches:
       - main
   repository_dispatch:
-    types: [website-push-event]
+    types: [trigger-generate-pdf-event]
 
 jobs:
   generate_pdf:
