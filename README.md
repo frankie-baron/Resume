@@ -20,7 +20,7 @@
 
 ## 2. Commercial Projects
 
-- **AkroAI**, CTO
+- **AkroAI**, CTO, iOS Developer
 - **Fairtiq**, iOS Developer
 - **Wage 3.0**, iOS Developer
 - **EasyInvoice 2.0**, iOS Developer
