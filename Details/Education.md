@@ -2,9 +2,7 @@
 
 ## Silesian University of Technology, Poland
 ### Interdisciplinary studies:
-- Automatic Control and Robotics
-- Electronics and Telecommunication
-- Informatics
+- Informatics, Automatic Control and Robotics, Electronics and Telecommunication
 
 **Title:** Bachelor of Science  
 **Year:** 2016-2020  
