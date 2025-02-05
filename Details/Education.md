@@ -6,7 +6,7 @@
 - [SwiftHeroes 2021](https://swiftheroes.com/2021/)
 
 ## 📚 Bookshelf
-- iOS Architecture Patterns: MVC, MVP, MVVM, VIPER, and VIP in Swift
+- [iOS Architecture Patterns: MVC, MVP, MVVM, VIPER, and VIP in Swift by Raúl Ferrer García](https://www.amazon.pl/iOS-Architecture-Patterns-VIPER-Swift/dp/1484290682)
 
 ## 🏛️ Silesian University of Technology, Poland
 ### Interdisciplinary studies:
