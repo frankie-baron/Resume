@@ -1,6 +1,6 @@
 # Workplaces
 
-## 1. **AkroAI**  
+## 📚📱 **AkroAI**  
 ### 2024 - CTO, Co-founder
 
 AkroAI is a startup I am co-founding. As the second person in the company, I am responsible for developing the product—an e-learning platform that helps people acquire IT and AI digital skills. I am in charge of every technical aspect.
@@ -12,7 +12,7 @@ AkroAI is a startup I am co-founding. As the second person in the company, I am 
 - Technology decision-making
 - Executive collaboration
 
-## 2. **Fairtiq**  
+## 🚄📱 **Fairtiq**  
 ### 2022-2023 - iOS Developer
 
 As an iOS developer at Fairtiq, I maintained and developed their innovative solution—a smart ticketing app for public transport.
@@ -28,7 +28,7 @@ Fairtiq was a fast-paced, agile environment with a Spotify team topology, where 
 - Tech debt reduction
 - Quality assurance
 
-## 3. **Iteo**  
+## 🛠️📱 **Iteo**  
 ### 2021-2022 - iOS Developer
 
 Iteo is a software house based in Poland. As part of the iOS development team, I worked on several distinct projects for client companies. I gained experience with diverse codebases and different tech stack approaches. Here, I also learned to work with Agile methodology.
@@ -40,7 +40,7 @@ Iteo is a software house based in Poland. As part of the iOS development team, I
 - Improving app performance
 - Conducting knowledge-sharing sessions
 
-## 4. **Score Digital**  
+## 🧾📱 **Score Digital**  
 ### 2022 - iOS Developer
 
 I worked for Score Digital as an outsourced iOS developer while employed at Iteo. My main objective was to redesign the EasyInvoice app.
@@ -52,7 +52,7 @@ I worked for Score Digital as an outsourced iOS developer while employed at Iteo
 - Collaborating closely with the app owner
 - Preparing the migration to the new app
 
-## 5. **Omnis**  
+## 👷🏻‍♂️📱 **Omnis**  
 ### 2020-2021 - Junior iOS Developer
 
 Omnis was my first commercial experience. I learned many fundamental skills, such as using the Git version control system and deploying apps.
