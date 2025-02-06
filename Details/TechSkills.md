@@ -37,7 +37,7 @@ Up until now my tech skills present as follows:
 - CoreBlutetooth
 - Combine
 - MapKit
-- XCText
+- XCTest
 - AVFoundation
 
 ### Native iOS 3-rd Party Libraries
