@@ -1,5 +1,4 @@
-🏗️ **Work in progress!** 🏗️  
-# Tech Skills
+# 👨🏻‍💻 Tech Skills
 
 After my graduation from university, I already had the basic overview of the vast IT landscape. I touched various programming languages, from C, C++ to Java or Python. I gained foundamental familiarity with computer related subjects like operating systems, internet layers and protocols, relational databases, website development, alghoritms, machine learning, computer graphics and mathematics. With such baggage, I started my iOS developer journey.
 
