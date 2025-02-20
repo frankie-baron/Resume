@@ -53,31 +53,32 @@
 
 ## 5. Tech Skills
 
-- Native iOS development in Swift
-- Automating pipelines
-- Investigating bugs
-- Analyzing codebase health
-- Creating future roadmaps
+- Native iOS app development in Swift
+- Arranging and automating app release process
+- Investigating software defects and providing solutions
+- Assessing overall codebase health
+- Designing feature implementation strategies
 
 [_Read more about technologies I work with..._](./Details/TechSkills.md)
 
 
 ## 6. Soft Skills
 
-- Self-management
-- Creative problem-solving
-- Writing articles
+- Efficient time management
 - Clear communication
-- Attention to detail
+- Creative problem-solving
+- Deep focus on details and quality
+- Preparing tech documents and articles
   <!-- [_Read more..._](./Details/SoftSkills.md) -->
 
 ## 7. Team Skills
 
-- Leading projects
+- Leading technical projects
 - Facilitating meetings
-- Explaining concepts
-- Creating a safe space
-- Brainstorming
+- Translating technical concepts
+- Creating a safe, inclusive space for others
+- Being empathetic and truthfu
+
   <!-- [_Read more..._](./Details/TeamSkills.md)  -->
 
 ## 8. Other
