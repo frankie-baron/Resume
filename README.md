@@ -28,7 +28,7 @@
 - **Duży Ben 2.0**, iOS Developer
 - **AdNote**, Junior iOS Developer
 
-  [_Read more..._](./Details/CommercialProjects.md)
+[_Read more about my experience..._](./Details/CommercialProjects.md)
   
 ## 3. Workplaces
 
@@ -38,7 +38,7 @@
 - **Score Digital**, *Poland* (outsourced by Iteo)
 - **Omnis**, *Poland*
 
-  [_Read more..._](./Details/Workplaces.md)
+[_Read more about my workplaces..._](./Details/Workplaces.md)
 
 ## 4. Education
 
@@ -48,8 +48,8 @@
 - **Western University of Applied Sciences**, Norway
     - Erasmus Exchange
     - 2019
- 
-  [_Read more..._](./Details/Education.md)
+
+[_Read more about my education..._](./Details/Education.md)
 
 ## 5. Tech Skills
 
@@ -59,7 +59,7 @@
 - Analyzing codebase health
 - Creating future roadmaps
 
-  [_Read more..._](./Details/TechSkills.md)
+[_Read more about technologies I work with..._](./Details/TechSkills.md)
 
 
 ## 6. Soft Skills
@@ -69,8 +69,7 @@
 - Writing articles
 - Clear communication
 - Attention to detail
-
-  [_Read more..._](./Details/SoftSkills.md)
+  <!-- [_Read more..._](./Details/SoftSkills.md) -->
 
 ## 7. Team Skills
 
@@ -79,8 +78,7 @@
 - Explaining concepts
 - Creating a safe space
 - Brainstorming
-
-  [_Read more..._](./Details/TeamSkills.md)
+  <!-- [_Read more..._](./Details/TeamSkills.md)  -->
 
 ## 8. Other
 
@@ -95,9 +93,9 @@
 
 ### Languages
 
-- English
-- Polish
-- German
+- English - _Proficient_
+- Polish - _Native_
+- German - _Intermediate_
 
 ##  
 
