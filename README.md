@@ -2,7 +2,7 @@
 > 👉🏿 _PDF version available [here](https://frankiebaron.com/resume/resume.pdf)._ 
 <!-- STRIP-END -->
 
-<img width="120" alt="Avatar" src="https://github.com/user-attachments/assets/59590714-8308-49a1-adf1-28ad899fb4d6">
+<img width="120" alt="Avatar" src="https://github.com/user-attachments/assets/fc15304b-384d-42aa-b886-5b44d9bbdb7d">
 
 ## 1. Personal Details
 
