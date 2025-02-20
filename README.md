@@ -1,8 +1,8 @@
-<!-- STRIP-BEGIN -->
+  <!-- STRIP-BEGIN -->
 > 👉🏿 _PDF version available [here](https://frankiebaron.com/resume/resume.pdf)._ 
 <!-- STRIP-END -->
 
-<img width="120" alt="Avatar" src="https://github.com/user-attachments/assets/456026ae-0161-46e7-ae50-688ecad384b7">
+<img width="120" alt="Avatar" src="https://github.com/user-attachments/assets/59590714-8308-49a1-adf1-28ad899fb4d6">
 
 ## 1. Personal Details
 
