@@ -77,7 +77,7 @@
 - Facilitating meetings
 - Translating technical concepts
 - Creating a safe, inclusive space for others
-- Being empathetic and truthfu
+- Being empathetic and truthful
 
   <!-- [_Read more..._](./Details/TeamSkills.md)  -->
 
